@@ -140,7 +140,7 @@
 #two-door, #four-door, #convertible, #electric, #countryman, #clubman, #mini-john, #models-featured {
     border-right: .5rem solid #26364f;
     border-bottom: .5rem solid #26364f;
-    padding: 1rem;
+    padding: 2rem;
     margin: 1rem;
     height: 20rem;
 }
