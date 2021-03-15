@@ -1,0 +1,196 @@
+.body {
+    margin-left: 0;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: .5rem solid #7693b0;
+}
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    gap: .5rem;
+}
+.header:not(.header-logo) {
+    background-color: #26364f;
+}
+.header-logo {
+    padding: .75rem;
+    padding-left: 2.75rem;
+    display: block;
+    width: 50%;
+    border-right: .5rem solid #7693b0;
+    background-color: #f1f1f5;
+}
+.models a, .build a, .why a, .dealers {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.build a:hover, .models a:hover, .why a:hover, .dealers:hover{
+    font-weight: bold;
+    text-shadow: #fafafa;
+}
+.search {
+    position: relative;
+    width: 100%;
+    font-size: 2em;
+    padding: .5rem;
+    bottom: .4rem;
+}
+.search-icon {
+    position: relative;
+    right: 11.5rem;
+    top: .1rem;
+}
+#search-input {
+    border-radius: 5%;
+    padding: .5rem 1rem;
+    background-color: #f1f1f5;
+    outline: none;
+}
+#search-input:focus {
+    text-indent: .5rem;
+    box-shadow: 0 0 1rem #7693b0;
+    border: 1px solid #7693b0;
+    background-color: #ebf0ff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f5;
+    border: .5rem solid #7693b0;
+    color: black;
+    text-align: center;
+    padding: .5rem;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dealers:hover {
+    font-weight: bold;
+    text-shadow: #fafafa;
+}
+.dealer-search {
+    font-size: 2em;
+    padding: .5rem;
+}
+.hero-image {
+    left: 0;
+    background-color: #f1f1f5;
+}
+#car-2, #car-1 {
+    width: 100%;
+}
+.hero-desc {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    font-size: 2em;
+    font-family: inherit;
+    color: #26364f;
+}
+.learn-more {
+    padding: .5rem;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #c93030;
+    border: #ff0000;
+    color: #fafafa;
+    width: 20rem;
+    font-family: inherit;
+}
+.learn-more:hover {
+    box-shadow: 0 .5rem #26364f;
+}
+.car-models {
+    font-family: inherit;
+    color: #26364f;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+@media (max-width: 1000px) {
+    .car-models {
+        font-family: inherit;
+        color: #26364f;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
+#two-door, #four-door, #convertible, #electric, #countryman, #clubman, #mini-john, #models-featured {
+    border-right: .5rem solid #26364f;
+    border-bottom: .5rem solid #26364f;
+    padding: 1rem;
+    margin: 1rem;
+    height: 20rem;
+}
+#models-featured {
+    font-size: 3em;
+    justify-content: center;
+    font-weight: bold;
+}
+.contact-us {
+    padding: 2rem;
+    background-color: #f1f1f5;
+    font-size: 1.2rem;
+    color: #26364f;
+}
+.more-info input[type=text] {
+    width: 100%;
+    padding: .5rem;
+    border-radius: 5%;
+    margin-top: 1rem;
+}
+.submit {
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #c93030;
+    border: #ff0000;
+    color: #fafafa;
+    width: 20rem;
+    font-family: inherit;
+}
+.submit:hover {
+    box-shadow: 0 .5rem #26364f;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+.footer ul {
+    font-family: inherit;
+}
+.footer ul li {
+    list-style-type: none;
+    color: #26364f;
+    padding: .5rem;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #7693b0;
+}
+.footer ul li a:hover {
+    font-weight: bold;
+}
